@@ -1,5 +1,5 @@
 TeeRexStore_React
-<h3>Task</h3>
+Task-
 Your job is to build a simple UI, which allows a customer to do the following: 
 Browse the catalog on a product listing page
 Each card should have the image, name and price.
