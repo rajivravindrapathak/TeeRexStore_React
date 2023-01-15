@@ -6,6 +6,8 @@ const Navbar = () => {
              {/* header */}
             <div className='navDiv'>
                 <p>TeeRex Store</p>
+                <p>Products</p>
+                
             </div>
 
         </div>

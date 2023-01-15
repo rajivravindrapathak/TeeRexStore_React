@@ -6,12 +6,23 @@ h1 {
   width: 100%;
   height: 45px;
   background-color: rgb(201, 196, 196);
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .submainDiv {
   display: grid;
   grid-template-columns: 0.2fr 1fr;
   margin: 25px;
+}
+
+.leftDiv {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.leftDiv:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 img {
