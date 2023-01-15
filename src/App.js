@@ -1,10 +1,10 @@
 import './App.css';
-import Product from './Components/Product';
+import AllRoutes from './Components/AllRoutes';
 
 function App() {
   return (
     <div className="App">
-     <Product />
+     <AllRoutes />
     </div>
   );
 }

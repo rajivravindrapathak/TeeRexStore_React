@@ -1,38 +1,91 @@
-.App {
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navDiv {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(201, 196, 196);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submainDiv {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  margin: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.srarchDiv {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 3%;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  width: 30rem;
+  height: 2.5rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  width: 6rem;
+  height: 2.85rem;
+  margin-left: 15px;
+}
+
+.flexDiv {
+  display: flex;
+}
+
+.redCheckDiv {
+  display: flex;
+  width: 80px;
+}
+
+.blueCheckDiv {
+  display: flex;
+  width: 80px;
+}
+
+.greenCheckDiv {
+  display: flex;
+  width: 90px;
+}
+
+
+.womenCheckDiv {
+  display: flex;
+  width: 100px;
+}
+
+.rsCheckDiv {
+  display: flex;
+  width: 90px;
+}
+
+.mapDiv {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.submapDiv {
+  gap: 15px;
+  margin: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+}
+
+.submapDiv:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.priceDiv {
+  margin-bottom: 10px;
 }
